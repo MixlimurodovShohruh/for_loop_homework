@@ -11,4 +11,6 @@ def main(A,B):
     for i in range(B, A-1,-1):
         a.append(i)
     return a
+
+print(main(5,9))
     
