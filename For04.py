@@ -8,9 +8,9 @@ def main(A,B):
         list: return  answer
     """
     a=[]
-    for i in range(B, A-1,-1):
+    for i in range(A, B+1,1):
         a.append(i)
     return a
 
-print(main(5,9))
+print(main(2,7))
     
